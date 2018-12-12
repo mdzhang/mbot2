@@ -13,7 +13,7 @@ deploy:
 
 # remove any AWS resources created via this serverless service
 destroy:
-	serverless remove
+	serverless remove --stage $$NODE_ENV
 
 # get all info on existing serverless resources
 info:
