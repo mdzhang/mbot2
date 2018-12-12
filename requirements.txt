@@ -1,0 +1,4 @@
+requests
+
+# serverless-package-python-functions
+ipython==7.0.1
